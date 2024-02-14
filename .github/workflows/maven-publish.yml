@@ -27,4 +27,9 @@ jobs:
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
     - name: Build with Maven
+
+  my_first_job:
+    name: My first job
+  my_second_job:
+    name: My second job
       run: mvn -B package --file pom.xml
