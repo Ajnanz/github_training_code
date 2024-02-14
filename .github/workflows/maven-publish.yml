@@ -5,11 +5,10 @@ name: Maven Package
 
 on: push
   
-
 jobs:
   build:
 
-    runs-on: DESKTOP-5636MPU
+    runs-on: self-hosted
     permissions:
       contents: read
       packages: write
