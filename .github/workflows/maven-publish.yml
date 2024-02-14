@@ -3,10 +3,10 @@
 
 name: Maven Package
 
-on: 
+on:
   push:
-      branches-ignore:
-      - 'Release2'
+    branches-ignore:
+      - 'Release1'
 
 jobs:
   build:
